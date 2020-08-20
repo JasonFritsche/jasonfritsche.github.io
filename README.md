@@ -1,4 +1,7 @@
-# Portfolio
+# My Portfolio
+
+## About
+Welcome to my portfolio readme. This project was built using Angular 9, Angular Material, and ngx-teximate (for the cool typing effects in the top).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
