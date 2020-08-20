@@ -1,0 +1,31 @@
+<mat-card class="project-card" appElevation>
+  <mat-card-header>
+    <mat-card-title>{{ project.name }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{ project.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions class="card-actions">
+    <a
+      color="primary"
+      mat-raised-button
+      appElevation
+      raisedElevation="6"
+      href="{{ project.repo }}"
+      target="_blank"
+      >Repo</a
+    >
+    <a
+      color="accent"
+      *ngIf="project.site !== null"
+      mat-raised-button
+      appElevation
+      raisedElevation="6"
+      href="{{ project.site }}"
+      target="_blank"
+      >Site</a
+    >
+  </mat-card-actions>
+</mat-card>

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@mdi/font/css/materialdesignicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inder&display=swap");
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.Heading {
+  font-family: "Inder", sans-serif !important;
+  font-size: 4.4em !important;
+}

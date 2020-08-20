@@ -1,0 +1,24 @@
+.projects-container {
+  background-color: whitesmoke;
+  padding: 3em 2em 7em 2em;
+  color: #333;
+}
+
+.projects-heading {
+  text-align: center;
+  .Heading {
+    color: rgb(17, 17, 8);
+    margin-bottom: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

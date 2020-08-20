@@ -1,0 +1,15 @@
+<div class="projects-container">
+  <div class="projects-heading">
+    <h1 id="projects" class="Heading">Projects</h1>
+    <p>
+      Here are a few of my personal projects. Please see my
+      <a href="https://github.com/JasonFritsche" target="_blank">GitHub</a> for
+      more projects.
+    </p>
+  </div>
+  <div class="projects-wrapper">
+    <div *ngFor="let project of projects">
+      <app-project [project]="project"></app-project>
+    </div>
+  </div>
+</div>

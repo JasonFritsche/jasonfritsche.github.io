@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Brewery Finder",
+    "description": "This project was created with React, Bootstrap, and the Open Brewery DB API. This was my first open source project, which provided me the opportunity to sharpen my Git skills.",
+    "repo": "https://github.com/JasonFritsche/BreweryFinder",
+    "site": "https://jasonfritsche.github.io/BreweryFinder/"
+  },
+  {
+    "name": "Where Is the ISS",
+    "description": "Want to see where the International Space Station is in real time? Check it out here.",
+    "repo": "https://github.com/JasonFritsche/where-is-the-iss",
+    "site": "https://jasonfritsche.github.io/where-is-the-iss/app-map"
+  },
+  {
+    "name": "Motivational Cats",
+    "description": "I created this at the end of October 2019 to see how many pull requests I would get since the end of Hacktoberfest was near. Built with vanilla JS and Bulma CSS.",
+    "repo": "https://github.com/JasonFritsche/motivationalCats",
+    "site": "https://jasonfritsche.github.io/motivationalCats/"
+  },
+  {
+    "name": "Ng-Todo",
+    "description": "This is a simple todo list made using Angular 8. The project utilizes local storage to save a user's list of items.",
+    "repo": "https://github.com/JasonFritsche/ng-todo",
+    "site": "https://jasonfritsche.github.io/ng-todo/"
+  },
+  {
+    "name": "Elixir Todo List",
+    "description": "I found myself tinkering with Elixir at one point in time. Here's a todo list I made.",
+    "repo": "https://github.com/JasonFritsche/elixir-Todo-List",
+    "site": null
+  },
+  {
+    "name": "Personal Schedule Analytics",
+    "description": "This application allows users to log how they spend their time. The application will compile logged time and display analytics to the user. This was one of my undergrad group projects.",
+    "repo": "https://github.com/JasonFritsche/PersonalScheduleAnalytics",
+    "site": null
+  }
+]

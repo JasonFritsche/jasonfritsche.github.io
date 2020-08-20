@@ -1,0 +1,52 @@
+$textColor1: #008020;
+$textColor2: #5a0380;
+$textColor3: #004585;
+
+.welcome-container {
+  display: block;
+  margin: 11em 0 3em 16em;
+  font-family: "Architects Daughter", cursive;
+  font-size: 2em;
+}
+
+.bgimage {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.bgimage::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("/assets/images/geometricbg2.png");
+  opacity: 0.36;
+}
+
+.line-one {
+  color: $textColor3;
+}
+
+.line-two {
+  color: $textColor1;
+  margin: 1em 0 0 2em;
+}
+
+.line-three {
+  color: $textColor2;
+  margin-top: 1em;
+}
+
+@media (max-width: 769px) {
+  .welcome-container {
+    display: block;
+    margin: 2.5em 0 1em 3em;
+    font-family: "Architects Daughter", cursive;
+    font-size: 2em;
+  }
+}

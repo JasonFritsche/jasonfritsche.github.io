@@ -1,0 +1,40 @@
+.project-card {
+  margin-top: 2em;
+  width: 32em;
+  height: 13em;
+}
+
+.mat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-card-header {
+  flex-shrink: 0;
+}
+
+.mat-card-content {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    width: 82vw;
+    height: 33vh;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .project-card {
+    width: 40vw;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .project-card {
+    width: 26vw;
+    height: 20vh;
+  }
+}

@@ -1,0 +1,49 @@
+.links-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 35em;
+  margin-top: 3em;
+}
+
+.links {
+  font-size: 5em;
+}
+
+.github {
+  color: #fff;
+  :hover {
+    color: darken(#fff, 20);
+  }
+}
+
+.linkedin {
+  color: #0077b5;
+  :hover {
+    color: darken(#0077b5, 10);
+  }
+}
+
+.devto {
+  color: #5855f3;
+  :hover {
+    color: darken(#5855f3, 10);
+  }
+}
+
+.email {
+  color: #db4437;
+  :hover {
+    color: darken(#db4437, 10);
+  }
+}
+
+@media (max-width: 769px) {
+  .links {
+    font-size: 2.2em;
+  }
+  .links-wrapper {
+    justify-content: center;
+  }
+}
