@@ -19,6 +19,7 @@ import { ProjectComponent } from './components/projects/project/project.componen
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/about/contact/contact.component';
 import { ElevationDirective } from './directives/elevation.directive';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ElevationDirective } from './directives/elevation.directive';
     AboutComponent,
     ContactComponent,
     ElevationDirective,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

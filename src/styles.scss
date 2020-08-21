@@ -9,9 +9,15 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .Heading {
   font-family: "Inder", sans-serif !important;
   font-size: 4.4em !important;
+}
+
+.Footer {
+  flex-shrink: 0;
 }
