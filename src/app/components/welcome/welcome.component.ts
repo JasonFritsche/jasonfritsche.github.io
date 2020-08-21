@@ -9,6 +9,8 @@ import {
   bounceInRight,
   bounceInUp,
   fadeInUp,
+  fadeIn,
+  bounceInDown,
 } from 'ng-animate';
 
 @Component({
@@ -26,19 +28,19 @@ export class WelcomeComponent implements OnInit {
   public line3: string = 'Thanks for stopping by!';
 
   public lineOneAnimation: TextAnimation = {
-    animation: bounceInRight,
+    animation: bounceInDown,
     delay: 200,
-    type: 'letter',
-  };
-
-  public lineTwoAnimation: TextAnimation = {
-    animation: bounceInLeft,
-    delay: 600,
     type: 'word',
   };
 
+  public lineTwoAnimation: TextAnimation = {
+    animation: bounceIn,
+    delay: 150,
+    type: 'letter',
+  };
+
   public lineThreeAnimation: TextAnimation = {
-    animation: fadeInUp,
+    animation: bounceInUp,
     delay: 1400,
     type: 'word',
   };
