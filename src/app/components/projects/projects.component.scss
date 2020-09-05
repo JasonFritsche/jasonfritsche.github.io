@@ -1,18 +1,23 @@
+@import "../../../variables";
+
 .projects-container {
-  background-color: whitesmoke;
+  background-color: lighten($primary-alt-color, 26);
   padding: 3em 2em 7em 2em;
-  color: #333;
+  color: darken($primary-color, 20);
 }
 
 .projects-heading {
   text-align: center;
   .Heading {
-    color: rgb(17, 17, 8);
+    color: darken($primary-color, 20);
     margin-bottom: 1em;
   }
   a {
     text-decoration: none;
-    color: #333;
+    color: darken($primary-color, 20);
+    :hover {
+      color: lighten($primary-color, 20);
+    }
   }
 }
 
