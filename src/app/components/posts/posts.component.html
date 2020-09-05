@@ -1,0 +1,15 @@
+<div id="articles" class="posts-component-container">
+  <div class="posts-heading">
+    <h1 class="Heading">Articles</h1>
+    <p>
+      Here's a few of my latest posts. For more articles click
+      <a href="https://dev.to/jasonfritsche" target="_blank">here</a> to view my
+      dev.to profile.
+    </p>
+  </div>
+  <div class="posts-container">
+    <div class="post" *ngFor="let post of posts">
+      <app-post [post]="post"></app-post>
+    </div>
+  </div>
+</div>

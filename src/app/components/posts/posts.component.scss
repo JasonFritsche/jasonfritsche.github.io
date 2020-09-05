@@ -1,0 +1,59 @@
+@import "../../../variables";
+
+.posts-component-container {
+  background-color: darken($primary-color, 25);
+  background-image: linear-gradient(
+    lighten($primary-color, 45),
+    lighten($primary-color, 50)
+  );
+  color: darken($secondary-alt-color, 25);
+  padding: 6em 2em 7em 2em;
+}
+
+.posts-heading {
+  text-align: center;
+  margin-bottom: 3em;
+  p {
+    margin-top: 2.1em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: darken($secondary-alt-color, 25);
+  :hover {
+    color: lighten($secondary-alt-color, 20);
+  }
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  padding: 1em;
+  width: 75%;
+}
+
+@media (max-width: 480px) {
+  .post {
+    padding: 0.75em;
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .post {
+    padding: 0.85em;
+    width: 84%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .post {
+    padding: 0.95em;
+    width: 80%;
+  }
+}

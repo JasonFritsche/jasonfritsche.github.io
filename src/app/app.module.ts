@@ -20,6 +20,9 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/about/contact/contact.component';
 import { ElevationDirective } from './directives/elevation.directive';
 import { FooterComponent } from './components/footer/footer.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PostComponent } from './components/posts/post/post.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +35,12 @@ import { FooterComponent } from './components/footer/footer.component';
     ContactComponent,
     ElevationDirective,
     FooterComponent,
+    PostsComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
