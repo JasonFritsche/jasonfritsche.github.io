@@ -1,18 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ClipboardModule } from '@angular/cdk/clipboard';
-import { MatTooltipModule } from '@angular/material/tooltip';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TeximateModule } from 'ngx-teximate';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarComponent } from './components/navbar/navbar.component';
-
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectComponent } from './components/projects/project/project.component';
@@ -21,8 +23,8 @@ import { ContactComponent } from './components/about/contact/contact.component';
 import { ElevationDirective } from './directives/elevation.directive';
 import { FooterComponent } from './components/footer/footer.component';
 import { PostsComponent } from './components/posts/posts.component';
-import { HttpClientModule } from '@angular/common/http';
 import { PostComponent } from './components/posts/post/post.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { PostComponent } from './components/posts/post/post.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,
+    MatIconModule,
     MatButtonModule,
+    MatMenuModule,
     ClipboardModule,
     MatTooltipModule,
     TeximateModule,
