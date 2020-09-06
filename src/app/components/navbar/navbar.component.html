@@ -1,9 +1,12 @@
 <mat-toolbar color="primary">
   <h1>{{ title }}</h1>
   <span class="position-filler"></span>
-  <div class="nav-links">
-    <a href="#projects">Projects</a>
-    <a href="#articles">Articles</a>
-    <a href="#about">About</a>
-  </div>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item href="#projects">Projects</a>
+    <a mat-menu-item href="#articles">Articles</a>
+    <a mat-menu-item href="#about">About</a>
+  </mat-menu>
 </mat-toolbar>

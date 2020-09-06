@@ -1,12 +1,8 @@
 @import "../../../variables";
 .about-container {
   padding: 6em 2em 5em 2em;
-  // background-image: linear-gradient(
-  //   lighten($primary-color, 50),
-  //   lighten($primary-color, 45)
-  // );
-  background-color: lighten($secondary-color, 15);
-  color: darken($secondary-alt-color, 25);
+  background-color: darken($secondary-color, 68);
+  color: darken($secondary-alt-color, 15);
   display: flex;
   flex-direction: column;
 }

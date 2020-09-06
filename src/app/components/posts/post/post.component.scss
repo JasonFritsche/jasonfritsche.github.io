@@ -2,9 +2,14 @@
 
 .post-url {
   text-decoration: none;
-  color: #133;
+  color: lighten($secondary-color, 5);
 }
 
 .post-tag {
   display: inline-flex;
+}
+
+.postCard {
+  background-color: darken($primary-color, 20);
+  color: lighten($secondary-color, 5);
 }

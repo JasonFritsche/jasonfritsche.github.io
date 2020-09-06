@@ -1,4 +1,7 @@
+@import "../../../../variables";
+
 .project-card {
+  background-color: lighten($secondary-color, 15);
   margin-top: 2em;
   width: 32em;
   height: 13em;
