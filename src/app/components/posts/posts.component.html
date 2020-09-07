@@ -1,5 +1,5 @@
-<div class="bgimage">
-  <div id="articles" class="posts-component-container">
+<div class="posts-container">
+  <div id="articles" class="articles-wrapper">
     <div class="posts-heading">
       <h1 class="Heading">Articles</h1>
       <p>
@@ -8,13 +8,14 @@
         my dev.to profile.
       </p>
     </div>
-    <div class="posts-container">
+    <div class="posts">
       <div class="post" *ngFor="let post of posts">
         <app-post [post]="post"></app-post>
       </div>
     </div>
   </div>
+  <img src="/assets/images/geometricbg3.jpg" />
 </div>
 
 <!-- bg image attribution
-<a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a> -->
+<a href='https://www.freepik.com/psd/background'>Background psd created by ydlabs - www.freepik.com</a>-->
