@@ -13,3 +13,9 @@
   background-color: darken($primary-color, 20);
   color: lighten($secondary-color, 5);
 }
+
+@media (max-width: 768px) and (min-width: 481px) {
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+}

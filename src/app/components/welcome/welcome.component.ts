@@ -29,19 +29,19 @@ export class WelcomeComponent implements OnInit {
 
   public lineOneAnimation: TextAnimation = {
     animation: bounceInDown,
-    delay: 200,
+    delay: 300,
     type: 'word',
   };
 
   public lineTwoAnimation: TextAnimation = {
-    animation: bounceIn,
-    delay: 150,
-    type: 'letter',
+    animation: bounceInDown,
+    delay: 400,
+    type: 'word',
   };
 
   public lineThreeAnimation: TextAnimation = {
-    animation: bounceInUp,
-    delay: 1400,
+    animation: bounceInDown,
+    delay: 500,
     type: 'word',
   };
 }

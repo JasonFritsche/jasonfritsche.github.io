@@ -15,9 +15,7 @@ export class DevPostsService {
     return this.http
       .get<Array<any>>(this.devApiUrl)
       .pipe(
-        map((result) =>
-          result.filter((item) => item.positive_reactions_count > 2)
-        )
+        map((result) => result.filter((item) => item.tags.includes('angular')))
       );
   }
 }

@@ -2,30 +2,29 @@ $textColor1: #008020;
 $textColor2: #5a0380;
 $textColor3: #004585;
 
-.welcome-container {
+.welcome-text-container {
   display: block;
-  margin: 11em 0 3em 16em;
-  font-family: "Architects Daughter", cursive;
+  margin: 9em 0 3em 13em;
+  font-family: "Fredoka One", cursive;
   font-size: 2em;
+  height: 40vh;
 }
 
-.bgimage {
+.welcome-container {
   position: relative;
-  height: 100vh;
   width: 100%;
   display: flex;
+  height: 93vh;
 }
 
-.bgimage::before {
-  content: "";
-  background-size: cover;
+.welcome-container img {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-image: url("/assets/images/geometricbg2.png");
-  opacity: 0.36;
+  left: 0;
+  top: -200px;
+  width: 100%;
+  height: calc(100% + 300px);
+  opacity: 0.37;
+  z-index: -1;
 }
 
 .line-one {
@@ -43,10 +42,37 @@ $textColor3: #004585;
 }
 
 @media (max-width: 769px) {
-  .welcome-container {
+  .welcome-text-container {
     display: block;
-    margin: 2.5em 0 1em 3em;
+    margin: 9em 0 1em 3em;
     font-family: "Architects Daughter", cursive;
     font-size: 2em;
+  }
+  .welcome-container img {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: calc(100% + 160px);
+    opacity: 0.37;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .welcome-text-container {
+    display: block;
+    margin: 12em 0 1em 3em;
+    font-family: "Architects Daughter", cursive;
+    font-size: 2em;
+  }
+  .welcome-container img {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: calc(100% + 100px);
+    opacity: 0.37;
+    z-index: -1;
   }
 }
