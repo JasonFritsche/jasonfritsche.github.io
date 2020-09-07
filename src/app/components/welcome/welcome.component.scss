@@ -1,11 +1,9 @@
-$textColor1: #008020;
-$textColor2: #5a0380;
-$textColor3: #004585;
+@import "../../../variables";
 
 .welcome-text-container {
   display: block;
   margin: 9em 0 3em 13em;
-  font-family: "Fredoka One", cursive;
+  font-family: "Coiny", Roboto, sans-serif;
   font-size: 2em;
   height: 40vh;
 }
@@ -28,17 +26,22 @@ $textColor3: #004585;
 }
 
 .line-one {
-  color: $textColor3;
+  color: darken($primary-color, 10);
 }
 
 .line-two {
-  color: $textColor1;
-  margin: 1em 0 0 2em;
+  color: darken($primary-alt-color, 10);
+  margin: 1em 0 0 1.1em;
 }
 
 .line-three {
-  color: $textColor2;
-  margin-top: 1em;
+  color: darken($secondary-color, 10);
+  margin: 1em 0 0 1.6em;
+}
+
+.line-four {
+  color: darken($secondary-alt-color, 10);
+  margin: 1em 0 0 1.9em;
 }
 
 @media (max-width: 769px) {

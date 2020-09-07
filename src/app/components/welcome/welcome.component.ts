@@ -25,7 +25,8 @@ export class WelcomeComponent implements OnInit {
 
   public line1: string = 'Hello and welcome.';
   public line2: string = "My name is Jason, I'm a web developer.";
-  public line3: string = 'Thanks for stopping by!';
+  public line3: string = 'This is my portfolio.';
+  public line4: string = 'Thanks for stopping by!';
 
   public lineOneAnimation: TextAnimation = {
     animation: bounceInDown,
@@ -39,7 +40,7 @@ export class WelcomeComponent implements OnInit {
     type: 'word',
   };
 
-  public lineThreeAnimation: TextAnimation = {
+  public lineFourAnimation: TextAnimation = {
     animation: bounceInDown,
     delay: 500,
     type: 'word',
