@@ -9,9 +9,14 @@
       </p>
     </div>
     <div class="posts">
-      <div class="post" *ngFor="let post of posts">
-        <app-post [post]="post"></app-post>
+      <div *ngIf="!isLoaded; else loaded">
+        <mat-spinner color="warn"></mat-spinner>
       </div>
+      <ng-template #loaded>
+        <div class="post" *ngFor="let post of posts">
+          <app-post [post]="post"></app-post>
+        </div>
+      </ng-template>
     </div>
   </div>
   <img src="/assets/images/geometricbg3.jpg" />
