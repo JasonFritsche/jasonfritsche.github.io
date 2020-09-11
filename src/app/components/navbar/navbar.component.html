@@ -1,7 +1,11 @@
 <mat-toolbar color="primary">
   <h1>{{ title }}</h1>
   <span class="position-filler"></span>
-  <button mat-icon-button [matMenuTriggerFor]="menu">
+  <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu"
+    aria-label="toggle menu button"
+  >
     <mat-icon>menu</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
