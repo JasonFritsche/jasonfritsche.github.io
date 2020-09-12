@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
+    "@mdi/angular-material": "^5.5.55",
     "@mdi/font": "^5.5.55",
     "ng-animate": "^0.3.4",
     "ngx-teximate": "^0.3.0",

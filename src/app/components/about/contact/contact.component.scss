@@ -7,8 +7,9 @@
   margin-top: 3em;
 }
 
-.links {
-  font-size: 5.5em;
+mat-icon {
+  width: 62px !important;
+  height: 62px !important;
 }
 
 .github {
@@ -40,11 +41,19 @@
 }
 
 @media (max-width: 769px) {
-  .links {
-    font-size: 3.2em;
+  mat-icon {
+    width: 42px !important;
+    height: 42px !important;
     margin: 0 9px;
   }
   .links-wrapper {
     justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  mat-icon {
+    width: 52px !important;
+    height: 52px !important;
   }
 }
