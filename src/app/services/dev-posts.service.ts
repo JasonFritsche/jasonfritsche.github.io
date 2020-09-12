@@ -15,7 +15,11 @@ export class DevPostsService {
     return this.http
       .get<Array<any>>(this.devApiUrl)
       .pipe(
-        map((result) => result.filter((item) => item.tags.includes('angular')))
+        map((result) =>
+          result.filter(
+            (item) => item.tags.includes('angular') && item.id !== 449859
+          )
+        )
       );
   }
 }
