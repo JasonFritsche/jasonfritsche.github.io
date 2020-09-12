@@ -1,17 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TextAnimation } from 'ngx-teximate';
-import {
-  fadeInDown,
-  slideInLeft,
-  tada,
-  bounceIn,
-  bounceInLeft,
-  bounceInRight,
-  bounceInUp,
-  fadeInUp,
-  fadeIn,
-  bounceInDown,
-} from 'ng-animate';
+import { bounceInDown } from 'ng-animate';
 
 @Component({
   selector: 'app-welcome',
