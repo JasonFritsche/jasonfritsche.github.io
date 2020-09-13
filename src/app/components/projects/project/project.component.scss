@@ -1,10 +1,18 @@
-@import "../../../../variables";
-
 .project-card {
-  background-color: lighten($secondary-color, 15);
+  background-color: var(--secondary);
   margin-top: 2em;
   width: 32em;
   height: 13em;
+}
+
+mat-card-actions a:nth-child(1) {
+  background-color: var(--secondary-alt);
+  color: var(--primary-text);
+}
+
+mat-card-actions a:nth-child(2) {
+  background-color: var(--primary-alt);
+  color: var(--primary-text);
 }
 
 .mat-card {

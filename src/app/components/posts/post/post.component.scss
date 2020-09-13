@@ -1,8 +1,6 @@
-@import "../../../../variables";
-
 .post-url {
   text-decoration: none;
-  color: lighten($secondary-color, 5);
+  color: var(--primary-text);
 }
 
 .post-tag {
@@ -10,12 +8,6 @@
 }
 
 .postCard {
-  background-color: darken($primary-color, 20);
-  color: lighten($secondary-color, 5);
-}
-
-@media (max-width: 768px) and (min-width: 481px) {
-}
-
-@media (max-width: 1024px) and (min-width: 769px) {
+  background-color: var(--primary);
+  color: var(--primary-text);
 }

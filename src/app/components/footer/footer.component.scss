@@ -1,3 +1,8 @@
 .footer-container {
   margin: 0 auto;
 }
+
+mat-toolbar {
+  background-color: var(--nav);
+  color: var(--nav-text);
+}
