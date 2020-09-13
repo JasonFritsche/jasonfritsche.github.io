@@ -1,8 +1,8 @@
 @import "../../../variables";
 .about-container {
   padding: 6em 2em 5em 2em;
-  background-color: darken($secondary-color, 62);
-  color: lighten($secondary-alt-color, 9);
+  background-color: var(--secondary-alt);
+  color: var(--secondary-text);
   display: flex;
   flex-direction: column;
 }

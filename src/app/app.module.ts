@@ -14,6 +14,10 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconRegistry, MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
+import { ThemeModule } from './theme/theme.module';
+import { lightTheme } from './theme/light-theme';
+import { darkTheme } from './theme/dark-theme';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
@@ -43,6 +47,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
+    ThemeModule.forRoot({
+      themes: [lightTheme, darkTheme],
+      active: 'light',
+    }),
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,

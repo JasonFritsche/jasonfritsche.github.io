@@ -1,16 +1,16 @@
-@import "~@angular/material/theming";
-@include mat-core();
+// @import "~@angular/material/theming";
+// @include mat-core();
 
-$primary-color: #1565c0;
-$primary-alt-color: #ffc400;
-$secondary-color: #ce93d8;
-$secondary-alt-color: #43a047;
-$accent-color: #ff1744;
+// $primary-color: #1565c0;
+// $primary-alt-color: #ffc400;
+// $secondary-color: #ce93d8;
+// $secondary-alt-color: #43a047;
+// $accent-color: #ff1744;
 
-$theme-primary: mat-palette($mat-blue, 800);
-$theme-accent: mat-palette($mat-amber, A400);
-$theme-warn: mat-palette($mat-purple, 300);
+// $theme-primary: mat-palette($mat-blue, 800);
+// $theme-accent: mat-palette($mat-amber, A400);
+// $theme-warn: mat-palette($mat-purple, 300);
 
-$portfolio-theme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
+// $portfolio-theme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
 
-@include angular-material-theme($portfolio-theme);
+// @include angular-material-theme($portfolio-theme);
