@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ThemeService } from 'src/app/theme/theme.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { ThemeService } from 'src/app/theme/theme.service';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
+  @Input('class') panelClass: string;
   public themeIcon: string = 'white-balance-sunny';
   public title: string = '<Jason/>';
 
