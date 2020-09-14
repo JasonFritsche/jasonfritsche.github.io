@@ -1,12 +1,8 @@
 <mat-card class="postCard" appElevation>
   <h1>
-    <a
-      class="post-url"
-      href="{{ post.url }}"
-      target="_blank"
-      rel="noreferrer"
-      >{{ post.title }}</a
-    >
+    <a class="post-url" href="{{ post.url }}" target="_blank" rel="noopener">{{
+      post.title
+    }}</a>
   </h1>
   <div class="post-tag">
     <p *ngFor="let tag of post.tag_list">#{{ tag }}&nbsp;</p>
