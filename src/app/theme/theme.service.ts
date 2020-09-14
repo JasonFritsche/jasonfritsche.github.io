@@ -22,5 +22,6 @@ export class ThemeService {
     this.theme = name;
     const setTheme = this.themes.find((t) => t.name === name);
     this.themeChange.emit(setTheme);
+    localStorage.setItem('jfprofiletheme', name);
   }
 }
