@@ -23,3 +23,20 @@ body {
 .Footer {
   flex-shrink: 0;
 }
+
+::ng-deep .mat-menu-content {
+  padding: -5px !important;
+}
+
+// .mat-menu-content:not(:empty) {
+//   margin-top: -8px !important;
+//   margin-bottom: -2px !important;
+// }
+
+// .mat-menu-panel {
+//   background-color: #292c2e;
+// }
+
+// .mat-menu-item {
+//   color: #d1d1d1;
+// }
