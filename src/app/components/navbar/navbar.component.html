@@ -12,8 +12,26 @@
     <mat-icon svgIcon="menu"></mat-icon>
   </button>
   <mat-menu #menu="matMenu">
-    <a mat-menu-item href="#projects">Projects</a>
-    <a mat-menu-item href="#articles">Articles</a>
-    <a mat-menu-item href="#about">About</a>
+    <div
+      class="menu-panel"
+      [ngStyle]="{ 'background-color': menuPanelBackgroundColor }"
+      class="menu-panel"
+    >
+      <a
+        mat-menu-item
+        href="#projects"
+        [ngStyle]="{ color: menuPanelTextColor }"
+        >Projects</a
+      >
+      <a
+        mat-menu-item
+        href="#articles"
+        [ngStyle]="{ color: menuPanelTextColor }"
+        >Articles</a
+      >
+      <a mat-menu-item href="#about" [ngStyle]="{ color: menuPanelTextColor }"
+        >About</a
+      >
+    </div>
   </mat-menu>
 </mat-toolbar>
