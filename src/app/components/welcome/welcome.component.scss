@@ -48,7 +48,7 @@
 @media (max-width: 480px) {
   .welcome-text-container {
     display: block;
-    margin: 3.3em 0 1em 3em;
+    margin: 2.3em 0 1em 3em;
     font-family: "Coiny", sans-serif;
     font-size: 2em;
   }
@@ -69,19 +69,19 @@
 @media (max-width: 768px) and (min-width: 481px) {
   .welcome-text-container {
     display: block;
-    margin: 3.3em 0 1em 3em;
+    margin: 1.3em 0 1em 3em;
     font-family: "Coiny", sans-serif;
     font-size: 2em;
   }
   .welcome-container {
-    height: 30vh;
+    height: 49vh;
   }
   .welcome-container img {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 30vh;
+    height: 49vh;
     opacity: 0.37;
     z-index: -1;
   }
@@ -90,19 +90,19 @@
 @media (max-width: 1024px) and (min-width: 769px) {
   .welcome-text-container {
     display: block;
-    margin: 4.4em 0 1em 3em;
+    margin: 2.7em 0 1em 3em;
     font-family: "Coiny", sans-serif;
     font-size: 2em;
   }
   .welcome-container {
-    height: 40vh;
+    height: 45vh;
   }
   .welcome-container img {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     opacity: 0.37;
     z-index: -1;
   }
