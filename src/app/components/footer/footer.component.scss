@@ -5,4 +5,6 @@
 mat-toolbar {
   background-color: var(--nav);
   color: var(--nav-text);
+  position: absolute;
+  z-index: 3 !important;
 }

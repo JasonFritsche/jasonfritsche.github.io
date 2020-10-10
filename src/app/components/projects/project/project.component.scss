@@ -32,7 +32,6 @@ mat-card-actions a:nth-child(2) {
 @media (max-width: 480px) {
   .project-card {
     width: 82vw;
-    height: 23vh;
   }
 }
 
@@ -45,7 +44,7 @@ mat-card-actions a:nth-child(2) {
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .project-card {
-    width: 26vw;
-    height: 18vh;
+    width: 72vw;
+    height: 11vh;
   }
 }
