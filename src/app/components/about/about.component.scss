@@ -4,6 +4,8 @@
   color: var(--secondary-text);
   display: flex;
   flex-direction: column;
+  z-index: 2 !important;
+  position: relative;
 }
 
 .about-body {
@@ -19,9 +21,23 @@
 }
 
 @media (max-width: 769px) {
+  .about-container {
+    padding: 1.91em 0.02em 0.05em 0.02em;
+  }
   .about-body {
     .about-description {
       width: 80%;
+    }
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .about-container {
+    padding: 3.5em 1.2em 1.7em 1.2em;
+  }
+  .about-body {
+    .about-description {
+      width: 72%;
     }
   }
 }
