@@ -19,13 +19,13 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
     const theme = this._getTheme();
-    this.currentTheme = theme.name === 'dark' ? 'dark' : 'light';
+    this.currentTheme = theme.name === 'light' ? 'light' : 'dark';
     this._updateNavbar(this.currentTheme);
   }
 
   public changeTheme(): void {
     const theme = this._getTheme();
-    this.currentTheme = theme.name === 'dark' ? 'light' : 'dark';
+    this.currentTheme = theme.name === 'light' ? 'dark' : 'light';
     this._updateNavbar(this.currentTheme);
     this.themeService.setTheme(this.currentTheme);
   }
