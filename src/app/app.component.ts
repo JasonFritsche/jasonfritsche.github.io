@@ -15,6 +15,8 @@ export class AppComponent {
     const theme = localStorage.getItem('jfprofiletheme');
     if (theme) {
       this.themeService.setTheme(theme);
+    } else {
+      this.themeService.setTheme('dark');
     }
   }
 }
