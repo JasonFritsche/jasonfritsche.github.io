@@ -1,5 +1,11 @@
 [
   {
+    "name": "CryptoLive",
+    "description": "A live CryptoCurrency tracker built using Angular 10, Angular Material, HighCharts, and the CoinRanking API.",
+    "repo": "https://github.com/JasonFritsche/CryptoLive",
+    "site": "https://jasonfritsche.github.io/CryptoLive/"
+  },
+  {
     "name": "Brewery Finder",
     "description": "This project was created with React, Bootstrap, and the Open Brewery DB API. This was my first open source project, which provided me the opportunity to sharpen my Git skills.",
     "repo": "https://github.com/JasonFritsche/BreweryFinder",
@@ -24,14 +30,8 @@
     "site": "https://jasonfritsche.github.io/ng-todo/"
   },
   {
-    "name": "Elixir Todo List",
-    "description": "I found myself tinkering with Elixir at one point in time. Here's a todo list I made.",
-    "repo": "https://github.com/JasonFritsche/elixir-Todo-List",
-    "site": null
-  },
-  {
     "name": "Personal Schedule Analytics",
-    "description": "This application allows users to log how they spend their time. The application will compile logged time and display analytics to the user. This was one of my undergrad group projects.",
+    "description": "This application allows users to log how they spend their time. The application will compile logged time and display analytics to the user. This was one of my undergrad group projects. Built with C#, ASP.Net, MySQL, and BootStrap 4.",
     "repo": "https://github.com/JasonFritsche/PersonalScheduleAnalytics",
     "site": null
   }
