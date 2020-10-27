@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconRegistry, MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 import { ThemeModule } from './theme/theme.module';
 import { lightTheme } from './theme/light-theme';
@@ -59,6 +60,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
+    DragDropModule,
     MatProgressSpinnerModule,
     ClipboardModule,
     MatTooltipModule,

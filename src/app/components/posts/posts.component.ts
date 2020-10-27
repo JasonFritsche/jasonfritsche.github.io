@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { DevPostsService } from 'src/app/services/dev-posts.service';
 
 @Component({
@@ -18,5 +19,9 @@ export class PostsComponent implements OnInit {
       this.posts = data.slice(0, 3);
       this.isLoaded = true;
     });
+  }
+
+  drop(event: CdkDragDrop<string[]>) {
+    moveItemInArray(this.posts, event.previousIndex, event.currentIndex);
   }
 }

@@ -7,7 +7,6 @@ import * as data from './projects.json';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent implements OnInit {
-  public show = 3;
   public projects: any = (data as any).default;
   constructor() {}
 
