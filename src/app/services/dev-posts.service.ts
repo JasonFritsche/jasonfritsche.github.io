@@ -17,7 +17,7 @@ export class DevPostsService {
       .pipe(
         map((result) =>
           result.filter(
-            (item) => item.tags.includes('angular') && item.id !== 449859
+            (item) => item.id !== 449859
           )
         )
       );
