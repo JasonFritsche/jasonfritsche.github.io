@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class DevPostsService {
   private devApiUrl: string =
-    'https://dev.to/api/articles?username=jasonf';
+    'https://dev.to/api/articles?username=juniordevforlife';
 
   constructor(private http: HttpClient) {}
 
