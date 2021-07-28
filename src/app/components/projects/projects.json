@@ -24,15 +24,15 @@
     "site": "https://jasonfritsche.github.io/motivationalCats/"
   },
   {
-    "name": "Ng-Todo",
-    "description": "This is a simple todo list made using Angular 8. The project utilizes local storage to save a user's list of items.",
-    "repo": "https://github.com/JasonFritsche/ng-todo",
-    "site": "https://jasonfritsche.github.io/ng-todo/"
+    "name": "Weather Vue",
+    "description": "This is my first Vue project/ This project utilizes the OpenWeatherMap api, Vuex, HighCharts, and Vuetify to bring daily weather, a five day forecast, as well as a live map.",
+    "repo": "https://github.com/JasonFritsche/weather-vue",
+    "site": "https://jasonfritsche.github.io/weather-vue/"
   },
   {
-    "name": "Personal Schedule Analytics",
-    "description": "This application allows users to log how they spend their time. The application will compile logged time and display analytics to the user. This was one of my undergrad group projects. Built with C#, ASP.Net, MySQL, and BootStrap 4.",
-    "repo": "https://github.com/JasonFritsche/PersonalScheduleAnalytics",
-    "site": null
+    "name": "CrazyPlantPerson",
+    "description": "Keep track of your plants with this handy plant log. Built with Vue 2, Firebase, Vuex, and Vuetify.",
+    "repo": "https://github.com/JasonFritsche/crazyplantperson",
+    "site": "https://www.crazyplantperson.net/#/"
   }
 ]
