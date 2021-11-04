@@ -6,10 +6,10 @@
     "site": "https://jasonfritsche.github.io/CryptoLive/"
   },
   {
-    "name": "Brewery Finder",
-    "description": "This project was created with React, Bootstrap, and the Open Brewery DB API. This was my first open source project, which provided me the opportunity to sharpen my Git skills.",
-    "repo": "https://github.com/JasonFritsche/BreweryFinder",
-    "site": "https://jasonfritsche.github.io/BreweryFinder/"
+    "name": "News From The Wormhole",
+    "description": "Read the latest spaceflight news and blog posts. This project was created with React, Vite, Tailwind, and the SpaceFlight Api.",
+    "repo": "https://github.com/JasonFritsche/news-from-the-wormhole",
+    "site": "https://jasonfritsche.github.io/news-from-the-wormhole/"
   },
   {
     "name": "Where Is the ISS",
